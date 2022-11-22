@@ -1,0 +1,99 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+/*
+body{
+
+    Acá debe ir la imagen de fondo
+    
+
+}
+*/
+ul{
+
+    /*Eliminar las viñetas a las listas*/
+    list-style: none;
+
+}
+
+.container{
+    
+    /*Espacio entre el borde y donde comienza contenido*/
+    padding: 5vh;
+
+}
+
+.miniCont1{
+
+    background-color: rgba(137, 43, 226, 0.178);
+    display: grid;
+    grid-template-columns: 4fr 3fr 4fr;
+    height: 50vh;
+    /*Quiero que el contenido este en los extremos*/
+
+}
+
+.subMiniCont1{
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+}
+
+.contentSecondSec li{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logoList{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.middleTitle{
+    text-align: center;
+    bottom: 0%;
+}
+
+.contImg{
+
+    padding: 1vh;
+
+}
+
+.textList p{
+
+    padding: 0.3vh;
+
+}
+
+/*Segunda parte bloque 1*/
+
+.secondSec{
+
+}
+
+/*Bloque 2*/
+.miniCont2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1vh;
+}
+
+
+.miniCont2{
+
+    background-color: rgba(255, 99, 71, 0.5);
+
+}
+
+.miniCont3{
+
+    background-color: rgba(0, 0, 255, 0.425);
+
+}
